@@ -1,8 +1,7 @@
 from openai import OpenAI
 import os
 
-# Set your OpenAI API key here
-# openai.api_key = 'sk-proj-v7ta4bgM39R4FzWQx0DUT3BlbkFJlRzCleEOysB8SkNS9V0b'
+# Set your OpenAI API key heregst 
 
 client = OpenAI(
     api_key=os.getenv(OPENIA_API_KEY) # type: ignore
